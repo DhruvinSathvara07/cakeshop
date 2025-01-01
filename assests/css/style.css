@@ -1,180 +1,180 @@
- *{
-    ::selection{
-        user-select: none;
-    }
- }   
-    
-    /* NAVBAR START  */
-    .cont,
-    .card,
-    #blog,
-    .form {
-        background-color: black !important;
-    }
+ * {
+     ::selection {
+         user-select: none;
+     }
+ }
 
-    .icon {
-        color: #fff;
-    }
+ /* NAVBAR START  */
+ .cont,
+ .card,
+ #blog,
+ .form {
+     background-color: black !important;
+ }
 
-    .fa-brands:hover,
-    .fa-solid:hover {
-        transition: all 0.8s linear;
-        transform: rotateY(360deg);
-        color: #ffc107 !important;
-    }
+ .icon {
+     color: #fff;
+ }
 
-    .navbar_screen,
-    .para_two {
-        font-family: "Jost", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: weight;
-        font-style: normal;
-    }
+ .fa-brands:hover,
+ .fa-solid:hover {
+     transition: all 0.8s linear;
+     transform: rotateY(360deg);
+     color: #ffc107 !important;
+ }
 
-    .nav-link,
-    .contact {
-        transition: all 0.5s linear;
-    }
+ .navbar_screen,
+ .para_two {
+     font-family: "Jost", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: weight;
+     font-style: normal;
+ }
 
-    .nav-link:hover,
-    .para_hover:hover {
-        color: #ffc107 !important;
-    }
+ .nav-link,
+ .contact {
+     transition: all 0.5s linear;
+ }
 
-    .number,
-    .number_two {
-        width: 235px;
-        height: 50px;
-        border: 1px solid #ffc107;
-        transition: all 0.6s linear;
-        color: #ffc107;
-    }
+ .nav-link:hover,
+ .para_hover:hover {
+     color: #ffc107 !important;
+ }
 
-    .number_two,
-    .number_three {
-        width: 120px;
-        color: #fff;
-        border: 1px solid #fff;
-    }
+ .number,
+ .number_two {
+     width: 235px;
+     height: 50px;
+     border: 1px solid #ffc107;
+     transition: all 0.6s linear;
+     color: #ffc107;
+ }
 
-    .number_two:hover {
-        color: #ffc107;
-        border: 1px solid #ffc107;
-    }
+ .number_two,
+ .number_three {
+     width: 120px;
+     color: #fff;
+     border: 1px solid #fff;
+ }
 
-    .number:hover {
-        background-color: #ffc107e5;
-        color: #fff;
-    }
+ .number_two:hover {
+     color: #ffc107;
+     border: 1px solid #ffc107;
+ }
 
-    /* NAVBAR END  */
+ .number:hover {
+     background-color: #ffc107e5;
+     color: #fff;
+ }
 
-    /* MAIN START  */
-    .main_container {
-        width: 100%;
-        height: 100%;
-        background-color: black;
-    }
+ /* NAVBAR END  */
 
-    .cake,
-    .image_section {
-        width: 100%;
-        height: 690px;
-        background-image: url(../images/cakeimage.jpg);
-        background-position: center;
-        background-size: cover;
-    }
+ /* MAIN START  */
+ .main_container {
+     width: 100%;
+     height: 100%;
+     background-color: black;
+ }
 
-    .box,
-    .para {
-        font-family: "Poiret One", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
+ .cake,
+ .image_section {
+     width: 100%;
+     height: 690px;
+     background-image: url(../images/cakeimage.jpg);
+     background-position: center;
+     background-size: cover;
+ }
 
-    .button {
-        width: 150px !important;
-        height: 35px;
-        transition: all 0.5s linear;
-        font-size: 13px !important;
-    }
+ .box,
+ .para {
+     font-family: "Poiret One", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+ }
 
-    .button:hover,
-    .btn:hover {
-        border: 1px solid #ffc107;
-        color: #ffc107;
-        background-color: transparent !important;
-    }
+ .button {
+     width: 150px !important;
+     height: 35px;
+     transition: all 0.5s linear;
+     font-size: 13px !important;
+ }
 
-    .image_section {
-        background-image: url(../images/video-bg.jpg);
-    }
+ .button:hover,
+ .btn:hover {
+     border: 1px solid #ffc107;
+     color: #ffc107;
+     background-color: transparent !important;
+ }
 
-    .btn {
-        width: 110px !important;
-        height: 100px !important;
-    }
+ .image_section {
+     background-image: url(../images/video-bg.jpg);
+ }
 
-    .learn {
-        width: 90px;
-        border-bottom: 1px solid;
-        transition: all 0.9s ease-in;
-    }
+ .btn {
+     width: 110px !important;
+     height: 100px !important;
+ }
 
-    .learn:hover {
-        width: 100px;
-        letter-spacing: 1px;
-    }
+ .learn {
+     width: 90px;
+     border-bottom: 1px solid;
+     transition: all 0.9s ease-in;
+ }
 
-    .swiper {
-        width: 100%;
-        height: 100%;
-    }
+ .learn:hover {
+     width: 100px;
+     letter-spacing: 1px;
+ }
 
-    .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: grab;
-    }
+ .swiper {
+     width: 100%;
+     height: 100%;
+ }
 
-    .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
+ .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+ }
 
-    .swiper-slide::before {
-        content: "Add to cart";
-        position: absolute;
-        top: 285px;
-        left: 1px !important;
-        bottom: 0%;
-        width: 100%;
-        height: 50px;
-        transition: all 0.6s linear;
-        padding-top: 10px;
-        margin-top: 300px;
-    }
+ .swiper-slide img {
+     display: block;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
 
-    .swiper-slide:hover::before {
-        background-color: #ffc107b4;
-        color: black;
-        margin-top: 0%;
-    }
+ .swiper-slide::before {
+     content: "Add to cart";
+     position: absolute;
+     top: 285px;
+     left: 1px !important;
+     bottom: 0%;
+     width: 100%;
+     height: 50px;
+     transition: all 0.6s linear;
+     padding-top: 10px;
+     margin-top: 300px;
+ }
 
-    .page {
-        border: none !important;
-        background-color: #fff !important;
-        color: #ffc107 !important;
-    }
+ .swiper-slide:hover::before {
+     background-color: #ffc107b4;
+     color: black;
+     margin-top: 0%;
+ }
 
-    .page:hover {
-        background-color: black !important;
-    }
+ .page {
+     border: none !important;
+     background-color: #fff !important;
+     color: #ffc107 !important;
+ }
 
-    /* MAIN END  */
+ .page:hover {
+     background-color: black !important;
+ }
+
+ /* MAIN END  */
